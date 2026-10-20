@@ -1,0 +1,224 @@
+{
+  "label": "both-only",
+  "target": "assistant",
+  "when": "2026-10-19T10:19:59",
+  "repeat": 3,
+  "cases": [
+    {
+      "id": "both-01",
+      "category": "both",
+      "question": "What are the commissioning stages at Barangaroo, and how much is the Allah Muhammad calligraphy artwork?",
+      "expected_route": "both",
+      "pass_rate": 0.0,
+      "runs": [
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$199'"
+          ],
+          "passed": false,
+          "latency_s": 6.46,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer your first question about the commissioning stages at Barangaroo.\n\n## Commissioning Stages at Barangaroo\n\nThere are **six stages** in the commissioning process [1][2]:\n\n1. **Artist Brief and Project Plan** – Project Curator prepares artist brief, contract and project plan, and forms the Consultant Group [1]\n\n2. **Artist Selection and Engagement** – Project Curator manages the procurement process to select the artist(s) and negotiates contract signing [1]\n\n3. **Concept Development** – The selected artist works with the Consultant Group to develop the concept and engages stakeholders [1]\n\n4. **Design Development** – The artist and/or design team develops the concept for fabrication, which may include planning approval, prototypes, and quotes [1]\n\n5. **Fabrication and Installation** – The artist and/or design team fabricates and installs the artwork [1]\n\n6. **Handover and Launch** – Final inspection and handover occur, followed by a launch event and media promotion [1]\n\n## Allah Muhammad Calligraphy Artwork\n\nI cannot answer your question about the price of the Allah Muhammad calligraphy artwork, as this information is **not contained in the sources provided**. The sources discuss the commissioning process and governance structure for Barangaroo artworks but do not mention this specific artwork or its cost.\n\nIf you'd like pricing information about a specific artwork, please provide more details and I can search the price knowledge base."
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$199'"
+          ],
+          "passed": false,
+          "latency_s": 6.25,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer your first question about the commissioning stages at Barangaroo.\n\n## Commissioning Stages at Barangaroo\n\nThere are **six stages** in the commissioning process [1][2]:\n\n1. **Artist Brief and Project Plan** – Project Curator prepares artist brief, contract and project plan; forms the Consultant Group [1]\n\n2. **Artist Selection and Engagement** – Project Curator manages procurement to select the artist and negotiates contract signing [1]\n\n3. **Concept Development** – Selected artist works with the Consultant Group to develop the concept; artist and Project Curator develop a stakeholder engagement plan [1]\n\n4. **Design Development** – Artist and/or design team develops the concept for fabrication, including planning approval, prototypes, and budget verification [1]\n\n5. **Fabrication and Installation** – Artist and/or design team begins fabrication and manages through to installation [1]\n\n6. **Handover and Launch** – PCG and INSW undertake final inspection and formalise handover; Communications team organises launch event and media promotion [1]\n\n## Allah Muhammad Calligraphy Artwork\n\nRegarding the price of the Allah Muhammad calligraphy artwork: **this information is not contained in the sources provided**. The sources only describe the commissioning process for Barangaroo public artworks, not specific artwork prices.\n\nIf you'd like pricing information for a specific artwork, please provide more details and I can search the price knowledge base."
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$199'"
+          ],
+          "passed": false,
+          "latency_s": 6.02,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer your first question but not your second.\n\n## Commissioning Stages at Barangaroo\n\nThere are **six commissioning stages** for public artworks at Barangaroo [1][2]:\n\n1. **Artist Brief and Project Plan** – Project Curator prepares artist brief, contract and project plan; forms the Consultant Group [1]\n\n2. **Artist Selection and Engagement** – Project Curator manages procurement to select the artist and negotiates contract signing [1]\n\n3. **Concept Development** – Selected artist works with the Consultant Group to develop the concept; artist and Project Curator develop a stakeholder engagement plan [1]\n\n4. **Design Development** – Artist and/or design team develops the concept for fabrication, which may include planning approval, prototypes, and quotes to ensure the design is within budget [1]\n\n5. **Fabrication and Installation** – Artist and/or design team begins fabrication and manages through to installation [1]\n\n6. **Handover and Launch** – PCG and INSW Executive Team undertake final inspection and formalise handover; Communications team organises a launch event and promotes the work through media channels [1]\n\n## Allah Muhammad Calligraphy Artwork\n\nThe sources do not contain any information about an \"Allah Muhammad calligraphy artwork\" or its price. I cannot answer this part of your question from the available documents."
+        }
+      ]
+    },
+    {
+      "id": "both-02",
+      "category": "both",
+      "question": "What curator fee applies to a Barangaroo commission up to $500k, and how much does Fazkurooni cost?",
+      "expected_route": "both",
+      "pass_rate": 0.0,
+      "runs": [
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$190'"
+          ],
+          "passed": false,
+          "latency_s": 4.44,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Curator fee for a Barangaroo commission up to $500k:**\n\nAccording to the fee guidelines, a curator fee of **20%** of the commission budget is recommended for projects up to $500k [2].\n\n**Fazkurooni cost:**\n\nThe sources do not contain any information about \"Fazkurooni\" or its cost. I cannot answer this part of your question from the available sources."
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$190'"
+          ],
+          "passed": false,
+          "latency_s": 2.95,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Curator fee for a Barangaroo commission up to $500k:**\n\nAccording to the fee guidelines, a curator fee of **20%** of the commission budget is recommended for projects up to $500k [2].\n\n**Fazkurooni cost:**\n\nThe sources do not contain any information about Fazkurooni or its cost. I cannot answer this part of your question from the provided materials."
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$190'"
+          ],
+          "passed": false,
+          "latency_s": 3.27,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Curator fee for a Barangaroo commission up to $500k:**\n\nAccording to the fee guidelines, a curator fee of **20%** of the commission budget is recommended for projects up to $500k [2].\n\n**Fazkurooni cost:**\n\nThe sources do not contain any information about \"Fazkurooni\" or its cost. I cannot answer this part of your question from the provided materials."
+        }
+      ]
+    },
+    {
+      "id": "both-03",
+      "category": "both",
+      "question": "Who assesses a deaccession request under the City of Sydney guidelines, and what does Fa Inni Qareeb cost?",
+      "expected_route": "both",
+      "pass_rate": 0.0,
+      "runs": [
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$90'"
+          ],
+          "passed": false,
+          "latency_s": 4.17,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Who assesses a deaccession request:**\n\nAccording to the City of Sydney guidelines, the **Public Art Advisory Panel** assesses deaccession requests. [1] The process works as follows: a deaccession request must be made in writing to the Public Art Program Manager, who then presents it to the Public Art Advisory Panel along with additional information about the work, including assessments by an independent conservator and/or heritage consultant as needed. The Panel then assesses the request and makes a recommendation. [1]\n\n**Regarding \"Fa Inni Qareeb\":**\n\nThe sources provided do not contain any information about an artwork called \"Fa Inni Qareeb\" or its cost. I cannot answer this part of your question from the available sources.\n\nIf you're looking for pricing information about an artwork, I can help you search a price database. Could you provide more details about this work (artist name, medium, period) so I can look up that information?"
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$90'"
+          ],
+          "passed": false,
+          "latency_s": 4.11,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Who assesses a deaccession request:**\n\nAccording to the City of Sydney guidelines, the **Public Art Advisory Panel** assesses deaccession requests. [1] The process works as follows: a written request is made to the Public Art Program Manager, who then presents it to the Public Art Advisory Panel along with additional information about the work, including assessments by an independent conservator and/or heritage consultant as required. The Panel then assesses the request and makes a recommendation. [1]\n\n**Regarding \"Fa Inni Qareeb\":**\n\nThe sources provided do not contain any information about an artwork called \"Fa Inni Qareeb\" or its cost. I cannot answer this part of your question from the available sources.\n\nIf you're looking for pricing information on an artwork, I can help you search a price database. Could you provide more details about this work (artist name, medium, period)?"
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$90'"
+          ],
+          "passed": false,
+          "latency_s": 3.95,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided:\n\n**Who assesses a deaccession request:**\n\nAccording to the City of Sydney guidelines, the **Public Art Advisory Panel** assesses deaccession requests. [1] The process works as follows: a deaccession request must be made in writing to the Public Art Program Manager, who then presents it to the Public Art Advisory Panel along with additional information about the work, including assessments by an independent conservator and/or heritage consultant as required. The Panel then assesses the request and makes a recommendation. [1]\n\n**Regarding \"Fa Inni Qareeb\" cost:**\n\nThe sources provided do not contain any information about the cost of \"Fa Inni Qareeb\" or any pricing data. If you're asking about the price or value of an artwork, I can help you search for that information using a price database. Could you clarify what \"Fa Inni Qareeb\" is (artist name, medium, period) so I can assist you further?"
+        }
+      ]
+    },
+    {
+      "id": "both-04",
+      "category": "both",
+      "question": "What is the Barangaroo artist concept fee for a commission over $5M, and what is the top of the price range for the calligraphy artworks?",
+      "expected_route": "both",
+      "pass_rate": 0.0,
+      "runs": [
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$530'"
+          ],
+          "passed": false,
+          "latency_s": 3.85,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer the first part of your question:\n\n**Artist Concept Fee for commissions over $5M:**\nAccording to the fee table in the Barangaroo Public Art Implementation Plan, for a commission budget over $5M, the artist concept fee is **$25,000** [3].\n\n**Regarding the calligraphy artworks price range:**\nThe sources provided do not contain any information about calligraphy artworks or their price ranges. I cannot answer this part of your question from the available sources.\n\nIf you're looking for pricing information on specific artworks, I can search a separate price knowledge base for you. Would you like me to do that?"
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$530'"
+          ],
+          "passed": false,
+          "latency_s": 3.72,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer the first part of your question:\n\n**Artist Concept Fee for commissions over $5M:**\nAccording to the fee table in the Barangaroo Public Art Implementation Plan, for a commission budget over $5M, the artist concept fee is **$25,000** [3].\n\n**Regarding the calligraphy artworks price range:**\nThe sources provided do not contain any information about calligraphy artworks or their price ranges. I cannot answer this part of your question from the available sources.\n\nIf you're looking for pricing information on specific artworks, I can search a separate price knowledge base. Would you like me to do that?"
+        },
+        {
+          "route": false,
+          "answer": false,
+          "grounded": true,
+          "observed_route": "exposure",
+          "problems": [
+            "route expected both, got exposure",
+            "missing '$530'"
+          ],
+          "passed": false,
+          "latency_s": 3.77,
+          "llm_calls": 1,
+          "retrievals": 1,
+          "text": "Based on the sources provided, I can answer the first part of your question:\n\n**Artist Concept Fee for commissions over $5M:**\nAccording to the fee table in the Barangaroo Public Art Implementation Plan, for a commission budget over $5M, the artist concept fee is **$25,000** [3].\n\n**Regarding the calligraphy artworks price range:**\nThe sources provided do not contain any information about calligraphy artworks or their price ranges. I cannot answer this part of your question from the available sources.\n\nIf you're looking for pricing information on specific artworks or artists, I can search a separate price knowledge base for you. Would you like me to do that?"
+        }
+      ]
+    }
+  ]
+}

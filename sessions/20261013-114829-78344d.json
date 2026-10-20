@@ -1,0 +1,36 @@
+{
+  "id": "20261013-114829-78344d",
+  "created": "2026-10-13T09:48:29.638756+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "text": "hello"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "text": "G'day! Welcome. I'm here to help you understand the Sydney art market.\n\nI can help you with questions about:\n\n- **Sydney's gallery and auction scene** – commercial galleries, auction houses, art fairs like Sydney Contemporary\n- **Market trends** – what's selling, price movements across Indigenous art, contemporary, modern, emerging artists\n- **Collector and institutional demand** – who's buying what in Sydney\n- **Artist visibility** – how exposed an artwork, artist or collection is in the local market\n\nWhat would you like to know about the Sydney art market?"
+        }
+      ]
+    }
+  ],
+  "log": [
+    {
+      "ts": "2026-10-13T09:49:05.721071+00:00",
+      "role": "user",
+      "model": "haiku",
+      "text": "hello"
+    },
+    {
+      "ts": "2026-10-13T09:49:07.758513+00:00",
+      "role": "assistant",
+      "model": "haiku",
+      "text": "G'day! Welcome. I'm here to help you understand the Sydney art market.\n\nI can help you with questions about:\n\n- **Sydney's gallery and auction scene** – commercial galleries, auction houses, art fairs like Sydney Contemporary\n- **Market trends** – what's selling, price movements across Indigenous art, contemporary, modern, emerging artists\n- **Collector and institutional demand** – who's buying what in Sydney\n- **Artist visibility** – how exposed an artwork, artist or collection is in the local market\n\nWhat would you like to know about the Sydney art market?"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# improvement 2 ranking step: labelled questions used by `python main.py --calibrate` to choose each KB's min_score.
+#
+# in_scope      = the KB really contains the answer     -> its top rerank score must clear min_score
+# out_of_scope  = the KB does NOT contain the answer    -> its top rerank score must stay below min_score
+#
+# Seeded from what the KBs contained on 2026-10-19:
+#   exposure KB: Barangaroo Public Art Implementation Plan 2023, City of Sydney acquisition and deaccession guidelines
+#   price KB:    sa1-01.pdf (online shop price list: Islamic calligraphy wall art, prices up to ~$530)
+# REVIEW AND EXTEND these when the KB content changes. 10+ questions per side gives a trustworthy threshold.
+
+exposure:
+  in_scope:
+    - What are the stages of commissioning and approvals for public art at Barangaroo?
+    - What is the indicative delivery program for public art at Barangaroo?
+    - What fees do curators receive for Barangaroo public art commissions?
+    - What are the City of Sydney guidelines for acquiring artworks into the collection?
+    - What is the process for deaccessioning a public artwork?
+    - Which artists have delivered public artworks at Barangaroo?
+  out_of_scope:
+    - Who won the AFL grand final?
+    - What is the recipe for lasagne?
+    - How exposed is Brett Whiteley in the Sydney art market?
+    - Which Sydney galleries represent Tracey Moffatt?
+    - What is the price of the Ayat ul Kursi calligraphy artwork?
+    - What were the hammer prices for Brett Whiteley oil paintings at Sydney auctions?
+
+price:
+  in_scope:
+    - What is the price of the Ayat ul Kursi calligraphy artwork?
+    - How much does the Hasbuna Allah Blue artwork cost?
+    - What are the prices of Islamic calligraphy wall art?
+    - How much is the Iqra calligraphy artwork?
+    - What is the price range of the artworks available?
+  out_of_scope:
+    - Who won the AFL grand final?
+    - What is the recipe for lasagne?
+    - What were the hammer prices for Brett Whiteley oil paintings at Sydney auctions?
+    - What were the Sotheby's Sydney sale results in 2024?
+    - What are the stages of commissioning and approvals for public art at Barangaroo?
+    - What is the process for deaccessioning a public artwork?
